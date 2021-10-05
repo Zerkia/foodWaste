@@ -10,4 +10,19 @@ public class FWController {
   public String index(){
     return "index";
   }
+
+  @GetMapping("/foodplan")
+  public String foodplan(){
+    return "foodplan";
+  }
+
+  @GetMapping("/didyouknow")
+  public String didYouKnow(){
+    return "didYouKnow";
+  }
+
+  @GetMapping("/yourhelp")
+  public String yourHelp(){
+    return "yourHelp";
+  }
 }
