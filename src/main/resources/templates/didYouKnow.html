@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="stylesheet.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+
 <head>
     <meta charset="UTF-8">
     <title>Vidste du?</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="nav-container col-lg-12">
+        <ul class="navbar-nav">
+            <li class="col-lg-4">
+                <a class="nav-link" href="foodplan">Madplan</a>
+            </li>
+            <li class="col-lg-4">
+                <a class="nav-link" href="didyouknow">Vidste du?</a>
+            </li>
+            <li class="col-lg-4">
+                <a class="nav-link" href="yourhelp">Hvad kan du gøre?</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <h1>Vidste du?</h1>
-<ul>
-    <li>
-        <p>Hver dag bliver der smidt 2000 tons mad ud, i hele Danmark det svare til 730 tusind ton
-        skrald om året, og for at sætte det i perspektiv så vejer mærsk´s største skib
-        "Emma" 157 tusind ton, så det ville sige vi smider cirka 4,5 container skibe ud om året.</p>
-    </li>
-    <li>
-        <p>En genemsnitlig dansker spiser omkring 52 kg årlig, så for alt det mad vi smider ud
-        kunne vi give mad til omkring 1/4 del af hele den danske befolkning</p>
-    </li>
-</ul>
+<div class="col-md-12">
+    <ul style=float:left; class="col-md-8">
+        <li>
+            <p>Hver dag bliver der smidt 2000 tons mad ud, i hele Danmark det svare til 730 tusind ton
+                skrald om året, og for at sætte det i perspektiv så vejer mærsk´s største skib
+                "Emma" 157 tusind ton, så det ville sige vi smider cirka 4,5 container skibe ud om året.</p>
+        </li>
+        <li>
+            <p>En genemsnitlig dansker spiser omkring 52 kg årlig, så for alt det mad vi smider ud
+                kunne vi give mad til omkring 1/4 del af hele den danske befolkning</p>
+        </li>
+    </ul>
+    <img style=float:right; class="col-md-4" src="illustration-skraldespand.jpg" alt="picture">
+</div>
 </body>
 </html>
