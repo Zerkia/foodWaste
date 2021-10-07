@@ -26,5 +26,6 @@ public class FWController {
     return "yourHelp";
   }
 
-
+  @GetMapping("/contact")
+  public String contact() { return "contact"; }
 }

@@ -7,7 +7,7 @@ body{
 .nav-container{
     padding: 5px;
     margin: 0 auto;
-    text-align:center;
+    text-align:center !important;
 }
 
 .navbar{
@@ -38,6 +38,15 @@ h2{
     margin-right: 15px;
 }
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+
 .textBox{
     text-align: center;
     border: 3px solid #5e565a;
@@ -46,5 +55,13 @@ h2{
 }
 .nolist{
     list-style: none !important;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
 }
 

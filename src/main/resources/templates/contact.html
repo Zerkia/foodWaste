@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const copenhagen = { lat: 55.676098, lng: 12.568337 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: copenhagen,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: copenhagen,
+                map: map,
+            });
+        }
+    </script>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<!--The div element for the map -->
+<div id="map" class="col-md-6"></div>
+
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk06Txsn-2xTcPx9mOWJt2IJoDfbKNZOQ&callback=initMap&libraries=&v=weekly"
+        async
+></script>
+</body>
+</html>
