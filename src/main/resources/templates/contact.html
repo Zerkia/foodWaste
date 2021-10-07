@@ -24,14 +24,60 @@
     </script>
 </head>
 <body>
-<h3>My Google Maps Demo</h3>
-<!--The div element for the map -->
-<div id="map" class="col-md-6"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="nav-container col-lg-12">
+            <ul class="navbar-nav">
 
-<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-<script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk06Txsn-2xTcPx9mOWJt2IJoDfbKNZOQ&callback=initMap&libraries=&v=weekly"
-        async
-></script>
+                <li class="col-lg">
+                    <a class="nav-link" href="/">Forside</a>
+                </li>
+                <li class="col-lg">
+                    <a class="nav-link" href="foodplan">Madplan</a>
+                </li>
+                <li class="col-lg">
+                    <a class="nav-link" href="didyouknow">Vidste du?</a>
+                </li>
+                <li class="col-lg">
+                    <a class="nav-link" href="yourhelp">Hvad kan du gøre?</a>
+                </li>
+                <li class="col-lg">
+                    <a class="nav-link" href="contact">Kontakt os</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--The div element for the map -->
+    <div id="map" class="col-md"></div>
+    <br>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 center">
+            <h3>Kontakt info</h3>
+            <br>
+            <h5 class="bold">Adresse: </h5><p>Guldbergsgade 29N, 2200 København</p>
+            <h5 class="bold">Telefon: </h5><p>+45 46460000</p>
+            <h5 class="bold">Email: </h5><p>kea@kea.dk</p>
+        </div>
+        <form action="mailto: clbo@kea.dk" class="col-md-5 center">
+            <h3 style="text-align:center">Brug for hjælp? Send os en mail!</h3>
+            <br>
+            <input type="text" name="name" placeholder="Your name">
+            <br><br>
+            <input type="email" name="email" placeholder="Email">
+            <br><br>
+            <textarea rows="6" cols="50" name="message" placeholder="Message"></textarea>
+            <br><br>
+            <input type="submit" value="Click for send request">
+        </form>
+        <div class="col-md-1"></div>
+
+    </div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk06Txsn-2xTcPx9mOWJt2IJoDfbKNZOQ&callback=initMap&libraries=&v=weekly"
+            async
+    ></script>
 </body>
 </html>
