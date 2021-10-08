@@ -18,10 +18,6 @@ body{
     margin-bottom: 15px;
 }
 
-.nav-link-margin{
-    margin:0 auto !important;
-}
-
 .nav-link{
     color:lightgrey !important;
 }
@@ -39,8 +35,8 @@ a{
 }
 
 .chicken{
-    max-width:40%;
-    max-height:25%; !important;
+    max-width:40px;
+    max-height:35px; !important;
 }
 
 h1{
