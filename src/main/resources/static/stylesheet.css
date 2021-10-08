@@ -14,6 +14,14 @@ body{
     background-color: #5DA399;
 }
 
+.navbar-margin{
+    margin-bottom: 15px;
+}
+
+.nav-link-margin{
+    margin:0 auto !important;
+}
+
 .nav-link{
     color:lightgrey !important;
 }
@@ -24,6 +32,15 @@ body{
 
 a{
     font-weight:bold;
+}
+
+.currentpage{
+    color:white !important;
+}
+
+.chicken{
+    max-width:40%;
+    max-height:25%; !important;
 }
 
 h1{
