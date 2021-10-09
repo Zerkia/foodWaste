@@ -1,17 +1,30 @@
 body{
-    font-family:"Arial", serif;
+background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size:18px;
     margin:0 auto;
 }
+li{
+    font-family: Arial ;
+}
 
 .nav-container{
+
     padding: 5px;
     margin: 0 auto;
     text-align:center !important;
 }
 
 .navbar{
-    background-color: #5DA399;
+    background: hsla(143, 100%, 17%, 1);
+
+    background: linear-gradient(90deg, hsla(143, 100%, 17%, 1) 0%, hsla(102, 27%, 43%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(143, 100%, 17%, 1) 0%, hsla(102, 27%, 43%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(143, 100%, 17%, 1) 0%, hsla(102, 27%, 43%, 1) 100%);
+
 }
 
 .navbar-margin{
@@ -20,6 +33,7 @@ body{
 
 .nav-link{
     color:lightgrey !important;
+
 }
 
 .nav-link:hover{
@@ -31,6 +45,7 @@ a{
 }
 
 .currentpage{
+
     color:white !important;
 }
 
@@ -59,12 +74,17 @@ h2{
     /* The width is the width of the web page */
 }
 
-
 .textBox{
     text-align: center;
-    border: 3px solid #5e565a;
-
-
+    border: 1px solid #081c15;
+    background-color: #b7e4c7;
+    background-clip: padding-box ;
+    width: 300px;
+    padding: 40px;
+    float: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-radius: 12px;
 }
 .nolist{
     list-style: none !important;
