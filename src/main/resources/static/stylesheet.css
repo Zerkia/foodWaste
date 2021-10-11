@@ -1,16 +1,46 @@
 body{
-background-image: url("background2.jpg");
+    /*background-image: url("background2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    font-family: sans-serif, Arial;
     font-size:18px;
     margin:0 auto;
+    position: relative;
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-li{
-    font-family: Arial ;
+
+body:before {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.bg-wrap{
+    overflow:hidden;
+    position:relative;
+}
+
+.bg-background {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: relative;
 }
 
 .nav-container{
-
     padding: 5px;
     margin: 0 auto;
     text-align:center !important;
@@ -24,7 +54,6 @@ li{
     background: -moz-linear-gradient(90deg, hsla(143, 100%, 17%, 1) 0%, hsla(102, 27%, 43%, 1) 100%);
 
     background: -webkit-linear-gradient(90deg, hsla(143, 100%, 17%, 1) 0%, hsla(102, 27%, 43%, 1) 100%);
-
 }
 
 .navbar-margin{
@@ -65,6 +94,7 @@ h2{
     text-align:center;
     margin-left: 15px;
     margin-right: 15px;
+    color:white;
 }
 
 /* Set the size of the div element that contains the map */
