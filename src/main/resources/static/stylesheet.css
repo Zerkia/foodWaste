@@ -136,4 +136,7 @@ input[type=text], input[type=email]{
 .bold{
     font-weight: bold;
 }
+billede{
+    border: 1px solid #081c15;
+}
 
