@@ -103,9 +103,10 @@ h2{
     border: 1px solid #081c15;
     background-color: #b7e4c7;
     background-clip: padding-box ;
-    width: 300px;
+    width: 285px;
     height: 400px;
     padding: 40px;
+    margin-right:1%;
     float: left;
     border-collapse: separate;
     border-spacing: 5px;
@@ -135,8 +136,5 @@ input[type=text], input[type=email]{
 
 .bold{
     font-weight: bold;
-}
-billede{
-    border: 1px solid #081c15;
 }
 
