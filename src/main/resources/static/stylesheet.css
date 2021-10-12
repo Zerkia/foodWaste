@@ -104,6 +104,7 @@ h2{
     background-color: #b7e4c7;
     background-clip: padding-box ;
     width: 300px;
+    height: 400px;
     padding: 40px;
     float: left;
     border-collapse: separate;
@@ -130,7 +131,6 @@ input[type=text], input[type=email]{
     text-align:center;
     display: block;
     margin: auto;
-
 }
 
 .bold{
