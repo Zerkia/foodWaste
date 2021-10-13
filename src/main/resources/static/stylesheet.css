@@ -153,3 +153,42 @@ input[type=text], input[type=email]{
     font-weight: bold;
 }
 
+.textList{
+    font-size: 20px;
+    border: 1px solid #081c15;
+    background-color: #b7e4c7;
+    width: 900px;
+    height: 850px;
+    padding: 40px;
+    margin-right:1%;
+    float: left;
+    border-radius: 12px;
+}
+
+.textTricks{
+    color: white;
+    font-size: 170px;
+    text-align: center;
+    border: 1px solid #081c15;
+    background-color: rgba(173, 245, 5, 0.5);
+    width: 500px;
+    padding: 20px;
+    margin-right:1%;
+    float: left;
+    border-radius: 12px;
+}
+
+.split{
+    border: 1px solid #081c15;
+    background-color: #b7e4c7;
+    width: 300px;
+    padding: 40px;
+    margin-right:1%;
+    float: right;
+    border-radius: 12px;
+}
+
+.video{
+    margin-top: auto;
+}
+
