@@ -139,8 +139,8 @@ input[type=text], input[type=email]{
     font-size: 26px;
     border: 1px solid #081c15;
     background-color: rgba(240, 140, 0, 0.5);
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 600px;
     padding: 40px;
     margin-left:3%;
     float: left;
@@ -166,7 +166,7 @@ input[type=text], input[type=email]{
     background-color: #b7e4c7;
     padding: 40px;
     margin-top: 3%;
-    float: left;
+    float: right;
     border-radius: 12px;
 }
 
