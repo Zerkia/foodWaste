@@ -115,9 +115,9 @@ h2{
 
 /* Set the size of the div element that contains the map */
 #map {
-    height: 400px;
+    height: 350px;
     /* The height is 400 pixels */
-    width: 98%;
+    width: 95%;
     /* The width is the width of the web page */
 }
 
